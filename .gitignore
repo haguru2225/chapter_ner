@@ -1,0 +1,21 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+# Virtual env
+.venv/
+venv/
+# VSCode settings (optional)
+.vscode/
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+# Large Gutenberg texts: ignore ALL .txt by default except ones we commit intentionally
+*.txt
+!README.md
+!LICENSE
+!chapter_ner.py
+# Ignore all .csv files except those we commit intentionally
